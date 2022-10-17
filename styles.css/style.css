@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #B6B7B9;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    /* margin-bottom: 10px; */
+
+}
+
+#logo {
+    width: 21em;
+    height: 6em;
+    padding-top: 5px;
+}
+
+.navbar .navbar-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 30px;
+    padding-right: 310px;
+}
+
+.navbar .navbar-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.navbar .navbar-list a {
+    margin: auto 15px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+
+}
+
+.navbar-list a:hover {
+    color: #00A9A9;
+}
